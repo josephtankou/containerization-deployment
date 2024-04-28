@@ -4,7 +4,7 @@ pipeline {
     stages{
         stage("Clone Code"){
             steps {
-                echo "Cloning the code"
+                echo "This line is help me to clonining my code"
                 git url:"https://github.com/cloudspaceacademy/containerization-deployment.git", branch: "main"
             }
         }
